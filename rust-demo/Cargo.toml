@@ -1,0 +1,17 @@
+[package]
+name = "rust-demo"
+version = "0.1.0"
+authors = ["Clemens Lutz <lutzcle@cml.li>"]
+license = "MIT"
+repository = "https://github.com/lutzcle/fast-interconnects-demo"
+description = "How to use fast, cache-coherent GPU interconnects with Rust"
+readme = "../README.md"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rustacuda = "*"
+
+[build-dependencies]
+cc = "*"
